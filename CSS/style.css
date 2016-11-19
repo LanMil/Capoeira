@@ -1,0 +1,69 @@
+body {
+
+  background-repeat: repeat-y;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li {
+  float: left;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  opacity: .8;
+  border: 1px solid #285189
+}
+ul li a:hover {
+  background-color: orange;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: block;
+}
+
+.wrapper {
+  width: auto;
+  background: red;
+  margin: 100px 50px 100px 50px;
+}
+.heading {
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+}
+.navigation {
+  height: 50px;
+  background: lightgreen;
+}
+.content {
+  min-height: 400px;
+  background: #ddd;
+  width: 400px;
+  float: left;
+}
+.sidebar {
+  width: 200px;
+  float: right;
+  background: lightblue;
+  min-width: 400px;
+}
+.footer {
+  clear: both;
+  background: black;
+  height: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
