@@ -11,12 +11,12 @@ body{
 
 }
 #history_section {
-    background-color: gray;
+    background-color: white;
    /* margin: 250px 400px 0px 400px; */
     margin: 5% 15% 0% 15%;
     padding: 20px 20px 20px 20px;
     float:left;
-} 
+}
 #bimbaslika {
     float:left;
     padding-left:200px;
@@ -44,3 +44,47 @@ body{
     text-align:center;
 }
 /* KRAJ ISTORIJE */
+
+/* NAVIGACIJA */
+.navigation {
+/*    padding: 0px;
+    margin: 10px;
+    text-decoration: none;
+    width: 200px;
+    background-color: white; */
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 350px;
+}
+
+.navigation, a {
+    text-decoration: none;
+    color: darkgreen;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+.navigation a:hover {
+    color: blue;
+}
+.navigation, ul {
+
+}
+.navigation, li {
+    list-style: none;
+}
+.navigation, li {
+    display: ;
+}
+.navigation li {
+
+}
+.glavna-navigacija-ul ul {
+    display: none;
+}
+.glavna-navigacija-ul li:hover ul {
+ display: block;
+ color: blue;
+}
+
+
+/* KRAJ NAVIGACIJE */
