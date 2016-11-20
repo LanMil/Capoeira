@@ -1,69 +1,46 @@
-body {
-
-  background-repeat: repeat-y;
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position: absolute
 }
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style-type: none;
-}
-ul li a {
-  text-decoration: none;
-  color: white;
-  display: block;
-}
-ul li {
-  float: left;
-  width: 100px;
-  height: 40px;
-  background-color: black;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
-  opacity: .8;
-  border: 1px solid #285189
-}
-ul li a:hover {
-  background-color: orange;
-}
-ul li ul li {
-  display: none;
-}
-ul li:hover ul li {
-  display: block;
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
 }
 
-.wrapper {
-  width: auto;
-  background: red;
-  margin: 100px 50px 100px 50px;
+/* POCETAK ISTORIJE */
+#history_section {
+
 }
-.heading {
-  height: 100px;
-  padding: 20px;
-  text-align: center;
+#history_section {
+    background-color: gray;
+   /* margin: 250px 400px 0px 400px; */
+    margin: 5% 15% 0% 15%;
+    padding: 20px 20px 20px 20px;
+    float:left;
+} 
+#bimbaslika {
+    float:left;
+    padding-left:200px;
+    padding-top: 30px;
+    padding-right: 50px;
+    width:200px;
 }
-.navigation {
-  height: 50px;
-  background: lightgreen;
+#pastinhaslika {
+    margin-top:30px;
+    padding-left:460px;
+    width:200px;
 }
-.content {
-  min-height: 400px;
-  background: #ddd;
-  width: 400px;
-  float: left;
+
+.tekstbimba2 {
+    font-size:12px;
+    font-weight:700;
+    margin-left:8px;
+    text-align:center;
 }
-.sidebar {
-  width: 200px;
-  float: right;
-  background: lightblue;
-  min-width: 400px;
+.tekstpastinha2 {
+    font-size:12px;
+    font-weight:700;
+    margin-left:10px;
+    margin-top:13px;
+    text-align:center;
 }
-.footer {
-  clear: both;
-  background: black;
-  height: 40px;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+/* KRAJ ISTORIJE */
