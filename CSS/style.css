@@ -5,8 +5,12 @@ html{
 body{
     height:100%; /* force the BODY element to match the height of the HTML element */
     background-image: url(../img/patternWood2.jpg);
-    background-position:
     background-repeat: repeat-y;
+}
+#wrapper {
+    background-color:#FFF;
+    margin:20% 40% 10% 40%;
+    width:960px;
 }
 
 
@@ -60,6 +64,12 @@ body{
     margin: 10% 20% 10% 20%;
     padding: 20px 20px 20px 20px;
     float:left;
+}
+#istorija-naslov {
+    text-align: center;
+    border-bottom: solid thin green;
+    padding-top: 0px;
+    padding-bottom: 35px;
 }
 #bimbaslika {
     float:left;
@@ -121,6 +131,12 @@ body{
 
 /* Muzika i instrumenti */
 
+#muz-i-ins-naslov {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+
 #agogo {
     float:right;
     font-weight:400;
@@ -173,9 +189,16 @@ body{
     margin:280px 40px 0;
 }
 #uvod {
+    float: right;
     border-bottom:solid thin green;
     border-top:solid thin green;
-    margin:0 40px;
+    margin: 30px;
+    margin-top: 15px;
+}
+#baterija-slika {
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .agotext {
     margin-right:210px;
@@ -232,15 +255,34 @@ body{
     text-align:justify;
     width:260px;
 }
-br {
-    color: black;
+.tekstuvod {
+    padding-right: 330px;
+    text-align:justify;
 }
+
 .slibatabaque {
     height: 260px;
     weight: 200px;
 }
-
+#baterija2 {
+    float: right;
+    margin-left: 200px;
+}
 /*Kraj muzike i instrumenata*/
+
+
+
+
+/*GRUPO SENZALA */
+
+.senzalatekst {
+    background-color: white;
+    text-align: justify;
+}
+
+
+
+/*KRAJ GRUPO SENZALA */
 
 
 /* FOOTER */
