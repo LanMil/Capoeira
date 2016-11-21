@@ -4,16 +4,60 @@ html{
 }
 body{
     height:100%; /* force the BODY element to match the height of the HTML element */
+    background-image: url(../img/patternWood2.jpg);
+    background-position:
+    background-repeat: repeat-y;
 }
+
+
+
+/* NAVIGACIJA */
+.navigation {
+
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 270px;
+    font-size: 20px;
+}
+
+.navigation, a {
+    text-decoration: none;
+    color: darkgreen;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+.navigation a:hover {
+    color: blue;
+}
+.navigation, ul {
+
+}
+.navigation, li {
+    list-style: none;
+}
+.navigation, li {
+    display: ;
+}
+.navigation li {
+
+}
+.glavna-navigacija-ul ul {
+    display: none;
+}
+.glavna-navigacija-ul li:hover ul {
+ display: block;
+ color: blue;
+}
+/* KRAJ NAVIGACIJE */
+
+
+
 
 /* POCETAK ISTORIJE */
-#history_section {
 
-}
 #history_section {
     background-color: white;
-   /* margin: 250px 400px 0px 400px; */
-    margin: 5% 15% 0% 15%;
+    margin: 10% 20% 10% 20%;
     padding: 20px 20px 20px 20px;
     float:left;
 }
@@ -45,46 +89,138 @@ body{
 }
 /* KRAJ ISTORIJE */
 
-/* NAVIGACIJA */
-.navigation {
-/*    padding: 0px;
-    margin: 10px;
-    text-decoration: none;
-    width: 200px;
-    background-color: white; */
-    position: fixed;
-    margin-left: 20px;
-    margin-top: 350px;
-}
-
-.navigation, a {
-    text-decoration: none;
-    color: darkgreen;
-    display: block;
-    padding: 5px 5px 5px 5px;
-}
-.navigation a:hover {
-    color: blue;
-}
-.navigation, ul {
-
-}
-.navigation, li {
-    list-style: none;
-}
-.navigation, li {
-    display: ;
-}
-.navigation li {
-
-}
-.glavna-navigacija-ul ul {
-    display: none;
-}
-.glavna-navigacija-ul li:hover ul {
- display: block;
- color: blue;
-}
 
 
-/* KRAJ NAVIGACIJE */
+
+
+
+
+/* Muzika i instrumenti */
+
+#agogo {
+    float:right;
+    font-weight:400;
+    height:320px;
+    width:430px;
+}
+#atabaque {
+    border-right:solid thin #B1854E;
+    float:left;
+    height:320px;
+    width:430px;
+}
+#atagogo {
+    margin:20px 40px;
+}
+#berimbau,
+#pandeiro {
+    border-bottom:solid thin #B1854E;
+    margin:0 40px;
+}
+#caxireco {
+    border-top:solid thin #B1854E;
+    margin:340px 40px 0;
+}
+#caxixi {
+    border-right:solid thin #B1854E;
+    float:left;
+    width:430px;
+}
+#muzika_i_instrumenti {
+     background-color: white;
+    margin: 10% 20% 0% 20%;
+    padding: 20px 20px 20px 20px;
+    float:left;
+}
+#muzika_i_instrumenti h2 {
+    padding:0 0 0 40px;
+}
+#muzika_i_instrumenti ul {
+    float:left;
+    font-size:large;
+    list-style:none;
+}
+#recoreco {
+    float:right;
+    width:430px;
+}
+#ritmovi {
+    border-top:solid thin #B1854E;
+    margin:280px 40px 0;
+}
+#uvod {
+    border-bottom:solid thin #B1854E;
+    border-top:solid thin #B1854E;
+    margin:0 40px;
+}
+.agotext {
+    margin-right:210px;
+    text-align:justify;
+}
+.atatekst {
+    margin-right:16px;
+    text-align:justify;
+}
+.caxitext {
+    margin-right:16px;
+    text-align:justify;
+}
+.lista {
+    font-size:14px;
+    list-style:circle;
+}
+.naslovritmovi {
+    margin-left:-40px;
+}
+.pandeirotext {
+    margin-right:300px;
+    text-align:justify;
+}
+.ritmotext,
+.ritmotext2 {
+    text-align:justify;
+}
+.slibaberimbau {
+    border:solid thin #3D3D3D;
+    float:right;
+    margin-top:10px;
+}
+.slibagogo,
+.slibareco {
+    float:right;
+}
+.slibapandeiro {
+    float:right;
+    margin-top:-20px;
+}
+.slibatabaque,
+.slibaxixi {
+    float:left;
+}
+.tekstberimbau,
+.tekstberimbau2 {
+    margin-right:200px;
+    text-align:justify;
+}
+.tekstreco {
+    float:left;
+    margin-top:-3px;
+    text-align:justify;
+    width:260px;
+}
+.slibatabaque {
+    height: 260px;
+    weight: 200px;
+}
+
+/*Kraj muzike i instrumenata*/
+
+
+/* FOOTER */
+.ftekst {
+    text-align: center; 
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
