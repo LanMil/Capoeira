@@ -15,7 +15,7 @@ body{
 .navigation {
 
     position: fixed;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 270px;
     font-size: 20px;
 }
@@ -64,12 +64,12 @@ body{
 #bimbaslika {
     float:left;
     padding-left:200px;
-    padding-top: 30px;
+    padding-top: 45px;
     padding-right: 50px;
     width:200px;
 }
 #pastinhaslika {
-    margin-top:30px;
+    margin-top:45px;
     padding-left:460px;
     width:200px;
 }
@@ -86,6 +86,30 @@ body{
     margin-left:10px;
     margin-top:13px;
     text-align:center;
+}
+#prvi-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#drugi-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#treci-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#cetvrti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#peti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#sesti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
 }
 /* KRAJ ISTORIJE */
 
@@ -104,7 +128,7 @@ body{
     width:430px;
 }
 #atabaque {
-    border-right:solid thin #B1854E;
+    border-right:solid thin green;
     float:left;
     height:320px;
     width:430px;
@@ -114,15 +138,15 @@ body{
 }
 #berimbau,
 #pandeiro {
-    border-bottom:solid thin #B1854E;
+    border-bottom:solid thin green;
     margin:0 40px;
 }
 #caxireco {
-    border-top:solid thin #B1854E;
+    border-top:solid thin green;
     margin:340px 40px 0;
 }
 #caxixi {
-    border-right:solid thin #B1854E;
+    border-right:solid thin green;
     float:left;
     width:430px;
 }
@@ -145,12 +169,12 @@ body{
     width:430px;
 }
 #ritmovi {
-    border-top:solid thin #B1854E;
+    border-top:solid thin green;
     margin:280px 40px 0;
 }
 #uvod {
-    border-bottom:solid thin #B1854E;
-    border-top:solid thin #B1854E;
+    border-bottom:solid thin green;
+    border-top:solid thin green;
     margin:0 40px;
 }
 .agotext {
@@ -181,7 +205,7 @@ body{
     text-align:justify;
 }
 .slibaberimbau {
-    border:solid thin #3D3D3D;
+    border:solid thin green;
     float:right;
     margin-top:10px;
 }
@@ -208,6 +232,9 @@ body{
     text-align:justify;
     width:260px;
 }
+br {
+    color: black;
+}
 .slibatabaque {
     height: 260px;
     weight: 200px;
@@ -219,7 +246,7 @@ body{
 /* FOOTER */
 .ftekst {
     text-align: center; 
-    color: red;
+    color: white;
     padding-top: 20px;
     padding-bottom: 10px;
 }
