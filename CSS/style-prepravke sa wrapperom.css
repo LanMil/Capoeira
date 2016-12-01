@@ -1,0 +1,301 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position: absolute
+}
+body{
+    height:100%; /* force the BODY element to match the height of the HTML element */
+    background-image: url(../img/patternWood2.jpg);
+    background-repeat: repeat-y;
+}
+#wrapper {
+    background-color:#FFF;
+    margin:20% 40% 10px 40%;
+    width:960px;
+}
+
+
+
+/* NAVIGACIJA */
+.navigation {
+
+    position: fixed;
+    margin-left: 0px;
+    margin-top: 270px;
+    font-size: 20px;
+}
+
+.navigation, a {
+    text-decoration: none;
+    color: darkgreen;
+    display: block;
+    padding: 5px 5px 5px 5px;
+}
+.navigation a:hover {
+    color: blue;
+}
+.navigation, ul {
+
+}
+.navigation, li {
+    list-style: none;
+}
+.navigation, li {
+    display: ;
+}
+.navigation li {
+
+}
+.glavna-navigacija-ul ul {
+    display: none;
+}
+.glavna-navigacija-ul li:hover ul {
+ display: block;
+ color: blue;
+}
+/* KRAJ NAVIGACIJE */
+
+
+
+
+/* POCETAK ISTORIJE */
+
+#history_section {
+    background-color: white;
+    margin: 10% 20% 10% 20%;
+    padding: 20px 20px 20px 20px;
+    float:left;
+}
+#istorija-naslov {
+    text-align: center;
+    border-bottom: solid thin green;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+#bimbaslika {
+    float:left;
+    padding-left:200px;
+    padding-top: 45px;
+    padding-right: 50px;
+    width:200px;
+}
+#pastinhaslika {
+    margin-top:45px;
+    padding-left:460px;
+    width:200px;
+}
+
+.tekstbimba2 {
+    font-size:12px;
+    font-weight:700;
+    margin-left:8px;
+    text-align:center;
+}
+.tekstpastinha2 {
+    font-size:12px;
+    font-weight:700;
+    margin-left:10px;
+    margin-top:13px;
+    text-align:center;
+}
+#prvi-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#drugi-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#treci-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#cetvrti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#peti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+#sesti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 20px;
+}
+/* KRAJ ISTORIJE */
+
+
+
+
+
+
+
+/* Muzika i instrumenti */
+
+#muzika_i_instrumenti {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+#muz-i-ins-naslov {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 30px;
+    padding-bottom: 35px;
+}
+#baterija-slika {
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#muzika_i_instrumenti h2 {
+    padding:0 0 0 40px;
+}
+#muzika_i_instrumenti ul {
+    float:left;
+    font-size:large;
+    list-style:none;
+}
+#berimbau, #pandeiro {
+    border-bottom:solid thin green;
+    margin:0 40px;
+}
+#atabaque {
+    border-right:solid thin green;
+    float:left;
+    height:320px;
+    width:430px;
+}
+#recoreco {
+    float:right;
+    width:430px;
+}
+#agogo {
+    float:right;
+    font-weight:400;
+    height:320px;
+    width:430px;
+}
+#atagogo {
+    margin:0px 0px;
+}
+
+#caxireco {
+    border-top:solid thin green;
+    margin:320px 0px 0 20px;
+    border-bottom: solid thin green;
+}
+#caxixi {
+    border-right:solid thin green;
+    float:left;
+    width:410px;
+    height: 260px
+}
+
+}
+
+#ritmovi {
+    border-top:solid thin green;
+    margin:290px 40px 0;
+    padding-top: 80px;
+}
+#uvod {
+    float: right;
+    border-bottom:solid thin green;
+    border-top:solid thin green;
+    margin: 30px;
+    margin-top: 15px;
+}
+
+.agotext {
+    margin-right:210px;
+    text-align:justify;
+}
+.atatekst {
+    margin-right:16px;
+    text-align:justify;
+}
+.caxitext {
+    margin-right:16px;
+    text-align:justify;
+}
+.lista {
+    font-size:14px;
+    list-style:circle;
+}
+.naslovritmovi {
+    margin-left: -20px;
+}
+.pandeirotext {
+    margin-right:300px;
+    text-align:justify;
+}
+.ritmotext,
+.ritmotext2 {
+    text-align:justify;
+}
+.slibaberimbau {
+    border:solid thin green;
+    float:right;
+    margin-top:10px;
+}
+.slibagogo,
+.slibareco {
+    float:right;
+}
+.slibapandeiro {
+    float:right;
+    margin-top:-20px;
+}
+.slibatabaque,
+.slibaxixi {
+    float:left;
+}
+.tekstberimbau,
+.tekstberimbau2 {
+    margin-right:200px;
+    text-align:justify;
+}
+.tekstreco {
+    float:left;
+    margin-top:-3px;
+    text-align:justify;
+    width:260px;
+}
+.tekstuvod {
+    padding-right: 330px;
+    text-align:justify;
+}
+
+.slibatabaque {
+    height: 200px;
+    weight: 200px;
+}
+#baterija2 {
+    float: right;
+    margin-left: 200px;
+}
+/*Kraj muzike i instrumenata*/
+
+
+
+
+/*GRUPO SENZALA */
+
+.senzalatekst {
+    background-color: white;
+    text-align: justify;
+}
+
+
+
+/*KRAJ GRUPO SENZALA */
+
+
+/* FOOTER */
+.ftekst {
+    text-align: center; 
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+

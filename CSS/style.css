@@ -1,9 +1,10 @@
-html{
-    min-height:100%;/* make sure it is at least as tall as the viewport */
+html {
+  /*  min-height:100%;/* make sure it is at least as tall as the viewport */
     position: absolute
 }
-body{
-    height:100%; /* force the BODY element to match the height of the HTML element */
+body {
+
+   /*  height:100%; /* force the BODY element to match the height of the HTML element */ 
     background-image: url(../img/patternWood2.jpg);
     background-repeat: repeat-y;
 }
@@ -12,15 +13,16 @@ body{
     margin:20% 40% 10px 40%;
     width:960px;
 }
-
-
+a {
+    color: black;
+}
 
 /* NAVIGACIJA */
 .navigation {
 
     position: fixed;
     margin-left: 0px;
-    margin-top: 270px;
+    margin-top: 100px;
     font-size: 20px;
 }
 
@@ -52,246 +54,166 @@ body{
  display: block;
  color: blue;
 }
+
+
+
+#meni-dole-desno {
+  position: fixed;
+  right: 0;
+  top:75%;
+  margin-right: 10px;
+}
+
+
+
 /* KRAJ NAVIGACIJE */
 
+/* Istorija */
 
-
-
-/* POCETAK ISTORIJE */
-
-#history_section {
-    background-color: white;
-    margin: 10% 20% 10% 20%;
-    padding: 20px 20px 20px 20px;
-    float:left;
-}
-#istorija-naslov {
-    text-align: center;
-    border-bottom: solid thin green;
-    padding-top: 0px;
-    padding-bottom: 35px;
-}
-#bimbaslika {
-    float:left;
-    padding-left:200px;
-    padding-top: 45px;
-    padding-right: 50px;
-    width:200px;
-}
-#pastinhaslika {
-    margin-top:45px;
-    padding-left:460px;
-    width:200px;
-}
-
-.tekstbimba2 {
-    font-size:12px;
-    font-weight:700;
-    margin-left:8px;
-    text-align:center;
-}
-.tekstpastinha2 {
-    font-size:12px;
-    font-weight:700;
-    margin-left:10px;
-    margin-top:13px;
-    text-align:center;
-}
-#prvi-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-#drugi-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-#treci-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-#cetvrti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-#peti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-#sesti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 20px;
-}
-/* KRAJ ISTORIJE */
-
-
-
-
-
-
-
-/* Muzika i instrumenti */
-
-#muz-i-ins-naslov {
-    text-align: center;
-    padding-top: 0px;
-    margin-top: 20px;
-    border-top: 30px;
-    padding-bottom: 35px;
-}
-
-#agogo {
-    float:right;
-    font-weight:400;
-    height:320px;
-    width:430px;
-}
-#atabaque {
-    border-right:solid thin green;
-    float:left;
-    height:320px;
-    width:430px;
-}
-#atagogo {
-    margin:20px 40px;
-}
-#berimbau,
-#pandeiro {
-    border-bottom:solid thin green;
-    margin:0 40px;
-}
-#caxireco {
-    border-top:solid thin green;
-    margin:340px 40px 0;
-}
-#caxixi {
-    border-right:solid thin green;
-    float:left;
-    width:430px;
-}
-#muzika_i_instrumenti {
-     background-color: white;
-    margin: 10% 20% 0% 20%;
-    padding: 20px 20px 20px 20px;
-    float:left;
-}
-#muzika_i_instrumenti h2 {
-    padding:0 0 0 40px;
-}
-#muzika_i_instrumenti ul {
-    float:left;
-    font-size:large;
-    list-style:none;
-}
-#recoreco {
-    float:right;
-    width:430px;
-}
-#ritmovi {
-    border-top:solid thin green;
-    margin:280px 40px 0;
-}
-#uvod {
-    float: right;
-    border-bottom:solid thin green;
-    border-top:solid thin green;
-    margin: 30px;
-    margin-top: 15px;
-}
-#baterija-slika {
-    float: right;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-.agotext {
-    margin-right:210px;
-    text-align:justify;
-}
-.atatekst {
-    margin-right:16px;
-    text-align:justify;
-}
-.caxitext {
-    margin-right:16px;
-    text-align:justify;
-}
-.lista {
-    font-size:14px;
-    list-style:circle;
-}
-.naslovritmovi {
-    margin-left:-40px;
-}
-.pandeirotext {
-    margin-right:300px;
-    text-align:justify;
-}
-.ritmotext,
-.ritmotext2 {
-    text-align:justify;
-}
-.slibaberimbau {
-    border:solid thin green;
-    float:right;
-    margin-top:10px;
-}
-.slibagogo,
-.slibareco {
-    float:right;
-}
-.slibapandeiro {
-    float:right;
-    margin-top:-20px;
-}
-.slibatabaque,
-.slibaxixi {
-    float:left;
-}
-.tekstberimbau,
-.tekstberimbau2 {
-    margin-right:200px;
-    text-align:justify;
-}
-.tekstreco {
-    float:left;
-    margin-top:-3px;
-    text-align:justify;
-    width:260px;
-}
-.tekstuvod {
-    padding-right: 330px;
-    text-align:justify;
-}
-
-.slibatabaque {
-    height: 260px;
-    weight: 200px;
-}
-#baterija2 {
-    float: right;
-    margin-left: 200px;
-}
-/*Kraj muzike i instrumenata*/
-
-
-
-
-/*GRUPO SENZALA */
-
-.senzalatekst {
-    background-color: white;
+#istorija-sekcija {
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-left: 50px;
     text-align: justify;
 }
 
+#istorija-naslov {
+    text-align: center;
+}
 
+h2, h3 {
+    font-style: italic
+}
 
-/*KRAJ GRUPO SENZALA */
-
-
-/* FOOTER */
-.ftekst {
-    text-align: center; 
-    color: white;
-    padding-top: 20px;
+#prvi-border {
+    border-bottom: solid thin green;
     padding-bottom: 10px;
 }
+
+#drugi-border {
+    border-bottom: solid thin green;
+    padding-bottom: 10px;
+}
+#treci-border {
+    border-bottom: solid thin green;
+    padding-bottom: 10px;
+}
+#cetvrti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 10px;
+}
+#peti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 10px;
+}
+#sesti-border {
+    border-bottom: solid thin green;
+    padding-bottom: 10px;
+}
+#bimba-pastinha {
+    display: flex;
+}
+naseljavanje-brazila-tekst {
+    float: left;
+    margin: 0px 10px 0px 0px;
+    text-align: justify;
+}
+#naseljavanje-brazila-slika{
+    float: right;
+    width: 250px;
+    margin-left: 25px;
+}
+#robovi-tekst {
+    text-align: justify;
+}
+#robovi-slika {
+    float: right;
+    width: 250px;
+    padding-left: 25px;
+}
+#kulturno-nasledje-tekst {
+    text-align: justify;
+}
+#kulturno-nasledje-slika {
+    float: right;
+    width: 250px;
+    margin-left: 25px;
+}
+#capoeira-tekst {
+    text-align: justify;
+}
+#capoeira-slika {
+    float: right;
+    margin-left: 25px;
+}
+#capoeira-police-tekst {
+    text-align: justify;
+}
+#capoeira-police-slika {
+    float: right;
+    height: 250px;
+    width: 300px;
+    margin-left: 25px;
+}
+#a19-vek-tekst {
+    text-align: justify;
+}
+#a19-vek-slika1 {
+    float: right;
+    height: 250px;
+    width: auto;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+#a19-vek-tekst2 {
+    text-align: justify;
+}
+#a19-vek-slika2 {
+    float: right;
+    height: 250px;
+    width: auto;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.bimba {
+    float: left;
+    display: block;
+    float: left;
+    padding: 20px 20px 0px 150px;
+}
+.pastinha {
+    margin: 20px 0px 0px 50px;
+    padding: 0px 50px 0px 0px;
+}
+
+.tekstbimba2 {
+    text-align: center;
+    padding: 250px 0px 0px 140px;
+}
+.tekstpastinha2 {
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    width: 300px;
+}
+/* Kraj istorije */
+
+
+
+
+
+.ftekst {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
