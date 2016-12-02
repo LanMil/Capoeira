@@ -1,219 +1,396 @@
+/*Normalize*/
+
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
 html {
-  /*  min-height:100%;/* make sure it is at least as tall as the viewport */
-    position: absolute
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    height: 100%;
 }
+
 body {
-
-   /*  height:100%; /* force the BODY element to match the height of the HTML element */ 
-    background-image: url(../img/patternWood2.jpg);
-    background-repeat: repeat-y;
-}
-#wrapper {
-    background-color:#FFF;
-    margin:20% 40% 10px 40%;
-    width:960px;
-}
-a {
-    color: black;
+    position: relative;
+    min-width: 320px;
+    height: 100%;
 }
 
-/* NAVIGACIJA */
-.navigation {
-
-    position: fixed;
-    margin-left: 0px;
-    margin-top: 100px;
-    font-size: 20px;
+header {
+    position: relative;
 }
 
-.navigation, a {
-    text-decoration: none;
-    color: darkgreen;
-    display: block;
-    padding: 5px 5px 5px 5px;
-}
-.navigation a:hover {
-    color: blue;
-}
-.navigation, ul {
-
-}
-.navigation, li {
+ul {
     list-style: none;
 }
-.navigation, li {
-    display: ;
-}
-.navigation li {
 
-}
-.glavna-navigacija-ul ul {
-    display: none;
-}
-.glavna-navigacija-ul li:hover ul {
- display: block;
- color: blue;
+a, a:active, a:hover, a:focus, a:visited {
+    text-decoration: none;
 }
 
-
-
-#meni-dole-desno {
-  position: fixed;
-  right: 0;
-  top:75%;
-  margin-right: 10px;
+img {
+    vertical-align: middle;
+    border: 0;
 }
 
-
-
-/* KRAJ NAVIGACIJE */
-
-/* Istorija */
-
-#istorija-sekcija {
-    padding-top: 10px;
-    padding-right: 60px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    text-align: justify;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 100%;
 }
 
-#istorija-naslov {
-    text-align: center;
-}
-
-h2, h3 {
-    font-style: italic
-}
-
-#prvi-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-
-#drugi-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-#treci-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-#cetvrti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-#peti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-#sesti-border {
-    border-bottom: solid thin green;
-    padding-bottom: 10px;
-}
-#bimba-pastinha {
-    display: flex;
-}
-naseljavanje-brazila-tekst {
-    float: left;
-    margin: 0px 10px 0px 0px;
-    text-align: justify;
-}
-#naseljavanje-brazila-slika{
-    float: right;
-    width: 250px;
-    margin-left: 25px;
-}
-#robovi-tekst {
-    text-align: justify;
-}
-#robovi-slika {
-    float: right;
-    width: 250px;
-    padding-left: 25px;
-}
-#kulturno-nasledje-tekst {
-    text-align: justify;
-}
-#kulturno-nasledje-slika {
-    float: right;
-    width: 250px;
-    margin-left: 25px;
-}
-#capoeira-tekst {
-    text-align: justify;
-}
-#capoeira-slika {
-    float: right;
-    margin-left: 25px;
-}
-#capoeira-police-tekst {
-    text-align: justify;
-}
-#capoeira-police-slika {
-    float: right;
-    height: 250px;
-    width: 300px;
-    margin-left: 25px;
-}
-#a19-vek-tekst {
-    text-align: justify;
-}
-#a19-vek-slika1 {
-    float: right;
-    height: 250px;
-    width: auto;
-    margin-left: 25px;
-    margin-top: 60px;
-}
-#a19-vek-tekst2 {
-    text-align: justify;
-}
-#a19-vek-slika2 {
-    float: right;
-    height: 250px;
-    width: auto;
-    margin-left: 25px;
-    margin-top: 5px;
-    margin-bottom: 35px;
-}
-.bimba {
-    float: left;
+article, aside, details, figcaption, figure, footer,
+header, hgroup, main, menu, nav, section, summary {
     display: block;
-    float: left;
-    padding: 20px 20px 0px 150px;
-}
-.pastinha {
-    margin: 20px 0px 0px 50px;
-    padding: 0px 50px 0px 0px;
 }
 
-.tekstbimba2 {
-    text-align: center;
-    padding: 250px 0px 0px 140px;
-}
-.tekstpastinha2 {
-    text-align: center;
-    margin-top: 10px;
-    padding-left: 10px;
-    width: 300px;
-}
-/* Kraj istorije */
-
-
-
-
-
-.ftekst {
-    text-align: center;
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
 }
 
+/*Normalize*/
+
+/*Container sizes*/
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+/*Container sizes*/
+
+/*Utilities*/
+
+.dib {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+.separator {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #028402;
+}
+
+.wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Distances and spacings */
+.p0  { padding: 0    !important; }
+.p5  { padding: 5px  !important; }
+.p10 { padding: 10px !important; }
+.p15 { padding: 15px !important; }
+.p20 { padding: 20px !important; }
+.m0  { margin:  0    !important; }
+.m5  { margin:  5px  !important; }
+.m10 { margin:  10px !important; }
+.m15 { margin:  15px !important; }
+.m20 { margin:  20px !important; }
+
+/*Top*/
+.pt0  { padding-top: 0    !important; }
+.pt5  { padding-top: 5px  !important; }
+.pt10 { padding-top: 10px !important; }
+.pt15 { padding-top: 15px !important; }
+.pt20 { padding-top: 20px !important; }
+.mt0  { margin-top:  0    !important; }
+.mt5  { margin-top:  5px  !important; }
+.mt10 { margin-top:  10px !important; }
+.mt15 { margin-top:  15px !important; }
+.mt20 { margin-top:  20px !important; }
+
+/*Right*/
+.pr0  { padding-right: 0    !important; }
+.pr5  { padding-right: 5px  !important; }
+.pr10 { padding-right: 10px !important; }
+.pr15 { padding-right: 15px !important; }
+.pr20 { padding-right: 20px !important; }
+.mr0  { margin-right:  0    !important; }
+.mr5  { margin-right:  5px  !important; }
+.mr10 { margin-right:  10px !important; }
+.mr15 { margin-right:  15px !important; }
+.mr20 { margin-right:  20px !important; }
+
+/*Bottom*/
+.pb0  { padding-bottom: 0    !important; }
+.pb5  { padding-bottom: 5px  !important; }
+.pb10 { padding-bottom: 10px !important; }
+.pb15 { padding-bottom: 15px !important; }
+.pb20 { padding-bottom: 20px !important; }
+.mb0  { margin-bottom:  0    !important; }
+.mb5  { margin-bottom:  5px  !important; }
+.mb10 { margin-bottom:  10px !important; }
+.mb15 { margin-bottom:  15px !important; }
+.mb20 { margin-bottom:  20px !important; }
+
+/*Left*/
+.pl0  { padding-left: 0    !important; }
+.pl5  { padding-left: 5px  !important; }
+.pl10 { padding-left: 10px !important; }
+.pl15 { padding-left: 15px !important; }
+.pl20 { padding-left: 20px !important; }
+.ml0  { margin-left:  0    !important; }
+.ml5  { margin-left:  5px  !important; }
+.ml10 { margin-left:  10px !important; }
+.ml15 { margin-left:  15px !important; }
+.ml20 { margin-left:  20px !important; }
 
 
+.pull-right { float: right !important; }
+.pull-left  { float: left  !important; }
+.clr-b      { clear: both  !important; }
 
+/*Text align*/
+.txt-c { text-align: center !important; }
+.txt-r { text-align: right  !important; }
+.txt-l { text-align: left   !important; }
 
+/*Utilities*/
 
+/*Main styles*/
 
+body {
+    background-image: url(../img/bg-main.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
+main {
+    padding: 10px;
+}
 
+.main-content {
+    background-color: #fff;
+    padding: 5px 10px;
+    position: relative;
+}
 
+h4 {
+    color: #016701;
+}
+
+.dd:hover .dd-menu {
+    display: block;
+}
+
+.dd-menu {
+    display: none;
+    position: absolute;
+    background-color: #388e3c;
+    width: 200px;
+}
+
+.main-nav .dd-menu ul {
+    float: none;
+}
+
+.main-nav .dd-menu ul li {
+    float: none;
+    border: none;
+}
+
+.main-nav .dd-menu li:hover {
+    background-color: #004d40;
+}
+
+/*Main styles*/
+
+/*Small screens*/
+
+@media (max-width: 767px) {
+    header {
+        height: 50px;
+        background-color: #2E7D32;
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        position: fixed;
+        z-index: 5;
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    .main-nav {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: -100%;
+        transition: left .3s ease;
+        background-color: #2e7d32;
+        border-top: 2px solid #1b4e1d;
+    }
+
+    .dd-menu {
+        position: static;
+        width: auto;
+    }
+
+    .main-nav.open {
+        left: 0;
+    }
+
+    .main-nav li {
+        padding: 5px 0 5px 5px;
+    }
+
+    .main-nav a {
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+    }
+
+    .main-nav--trigger {
+        width: 60px;
+        display: table-cell;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .main-nav--trigger span {
+        height: 4px;
+        width: 30px;
+        display: block;
+        background-color: #F5F5F5;
+        margin: 0 auto 4px;
+    }
+
+    .main-nav--trigger span:last-child {
+        margin-bottom: 0;
+    }
+
+    .page-name {
+        display: table-cell;
+        vertical-align: middle;
+        font-size: 20px;
+        line-height: 22px;
+        color: #fff;
+        border-left: 2px solid #1b4e1d;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    .quick-links {
+        display: none;
+    }
+}
+
+/*Small screens*/
+
+/*Medium screens*/
+
+@media (min-width: 768px) {
+
+    header {
+        position: fixed;
+        width: 1000px;
+        z-index: 2;
+    }
+    main {
+        padding: 0;
+        padding-top: 38px;
+    }
+
+    .main-content {
+        padding: 10px 20px;
+    }
+
+    .page-name {
+        display: none;
+    }
+
+    .main-nav {
+        background-color: #004D40;
+    }
+
+    .main-nav:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .main-nav ul {
+        float: left;
+    }
+
+    .main-nav ul:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .main-nav ul > li {
+        position: relative;
+        float: left;
+        border-right: 1px solid #000;
+    }
+
+    .main-nav li:hover {
+        background-color: #388E3C;
+    }
+
+    .main-nav a {
+        padding: 10px;
+        font-size: 16px;
+        line-height: 18px;
+        color: #fff;
+        display: block;
+    }
+
+    .quick-links {
+        float: right;
+        border-left: 1px solid #000;
+    }
+
+    .quick-links .dd-menu {
+        right: 0;
+        width: auto;
+    }
+
+    .quick-links .dd-menu li {
+        float: none;
+    }
+}
+
+/*Medium screens*/
+
+/*Large screens*/
+
+@media (min-width: 1020px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+/*Large screens*/
